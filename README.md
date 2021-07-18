@@ -26,4 +26,25 @@
 * And then used PCA to reduce the dimensionality of the dataset<br> 
 * The results for PCA was slightly better with<br> 
     * <font color=blue>F1 Score : 0.62 and Accuracy 0.55</font>
-    * Not bad for the first run
+* Trying to improve the model performance – I used TfidVectorizer from sklearn.feature_extraction.text<br>
+    * <font color=blue>F1 Score : 0.34 and Accuracy 0.45</font>
+* TfidVectorizer performed substantially better without PCA
+
+### Tuning the parameters for modeling
+* in order to improve the performance of the model, a combination of three different values for each parameter were tested, a total number of 27 models for each case
+* max_fatures is the maximum number of world columns – 10000, 30000, None
+* min_df minimum number of times a word must appear in the text – 1, 2, 3
+* max_iter maximum number of iteration for KMenas – 1000, 2000, 3000
+    * tuning practically had no impact on CountVectorizer
+    * tuning practically had little impact on TfidVectorizer with increasing the accuracy to 57%
+### Selecting TfidVectorizer with max_feature=None, min_df=2, max_iter=1000
+* visisulized the data, the performance is not great
+* moving to the model which is using KMeans on Dense 
+
+
+
+
+
+
+
+
