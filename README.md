@@ -38,13 +38,14 @@
     * tuning practically had no impact on CountVectorizer
     * tuning practically had little impact on TfidVectorizer with increasing the accuracy to 57%
 ### Selecting TfidVectorizer with max_feature=None, min_df=2, max_iter=1000
-* visisulized the data, the performance is not great
+* visualized the data. The performance is not great
 * moving to the model which is using KMeans on Dense 
 
-
-
-
-
-
+### Basic Modeling – Wor2Vec
+* highest accuracy achieved with tuning the parameters with sparse dataset was 57%
+* Word2Vec is a group of related models that are used to produce word embeddings
+* Word2Vec is not a single algorithm. It consists of two algorithms GBOW and Skip-gram
+* applied the basic modeling with default values using Wor2Vec and then KMeans clustering again with two clusters
+* Achieved 62% accuracy using the dense matrix, improved significantly over sparse datasets
 
 
