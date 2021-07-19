@@ -47,5 +47,7 @@
 * Word2Vec is not a single algorithm. It consists of two algorithms GBOW and Skip-gram
 * applied the basic modeling with default values using Wor2Vec and then KMeans clustering again with two clusters
 * Achieved 62% accuracy using the dense matrix, improved significantly over sparse datasets
-
-
+### Tuning the model – Word2Vec
+* train the model for 30 epochs
+* changed the text processing to include the bigrams as well
+* accuracy dropped to 52%  
