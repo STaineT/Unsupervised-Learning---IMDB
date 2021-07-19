@@ -50,4 +50,7 @@
 ### Tuning the model – Word2Vec
 * train the model for 30 epochs
 * changed the text processing to include the bigrams as well
-* accuracy dropped to 52%  
+* accuracy dropped to 54%  
+### Solving the challenge with Vader Lexicon – (only for comparison)
+* Vader Lexicon is a semi-supervised learning which is specifically attuned to sentiments expressed in social media
+* tried to solve the challenge using Vader to create a benchmark for the comparison 
