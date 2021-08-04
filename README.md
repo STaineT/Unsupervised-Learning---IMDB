@@ -1,6 +1,6 @@
 # Unsupervised Sentiment Analysis - Trustpage Challenge
 
-Here is a short video, explaining [my workflow](https://www.loom.com/share/b1cc951272d1477c8cdc4a2848dda52c) to solve the challenge
+
 
 ## Developing unsupervised learning for movie reviews from IMDB
 ### Clustering problem
